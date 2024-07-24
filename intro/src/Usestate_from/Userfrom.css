@@ -1,0 +1,108 @@
+
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 2px solid aliceblue;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: 50vw;
+    height: 50%;
+    background-color:cornflowerblue;
+    border-radius: 30px 0 0 30px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+}
+
+.online{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius:40px;
+    color: cornflowerblue;
+
+}
+.offline{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: black;
+    padding: 8px;
+    border-radius:40px;
+    color:aliceblue;
+}
+main h3{
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+   
+}
+main h4{
+    margin-top: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.top{
+    padding:5px 0 ;
+    border-radius: 0 0 30px 30px ;
+}
+p{
+    margin-top: 10px;
+}
+form{
+    width: 50vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid cornflowerblue;
+    border-radius: 0 30px  30px 0;
+}
+form h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: cornflowerblue;
+    margin-bottom: 20px;
+}
+input{
+    padding: 5px;
+    width: 100%;
+    margin-bottom:10px ;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 0 0 30px 0;
+    resize: none;
+}
+

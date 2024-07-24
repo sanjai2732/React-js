@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.welcome{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    
+}
+.para{
+    color: brown;
+}
+.color{
+    color: blueviolet;
+}
+.error{
+    color: rgb(255, 0, 0);
+}
+.para1{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+.para2{
+    background-color: blue;
+    color: aliceblue;
+    padding: 20px;
+}
+.allpara{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    place-content: center;
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    justify-content:space-around;
+    height:40px;
+    background-color: black;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    height: 100%; 
+    align-items: center;
+   
+}
+.nav li a{
+    display:flex;
+    color: aliceblue;
+    margin-right: 2rem;
+    height: 80%;
+    padding: 10px 20px;
+}
+.nav li a:hover{
+   background-color: aliceblue;
+   color:black;
+}
+#logo{
+    color: aliceblue;
+}
+#contact{
+    height:80%;
+    padding: 0px 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.hero{
+    width:100vw;
+    padding:15px;
+    color: aliceblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding:3rem;
+}
+/* .box{
+    width: 300px;
+    border: 0px solid transparent;
+    border-width: 0px 150px 300px 150px;
+    border-bottom-color:blue ;  
+} */
+.box{
+    
+    min-width:200px;
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+}
+#name{
+    margin-top: 10px;
+    font-size:48px;
+}
+#job{
+    margin-top: 10px;
+    font-size :20px;
+    color: aqua;
+}
+#p1{
+    margin-top: 10px;
+    max-width:60%;
+    min-width: 50%;
+}
+.student{
+    margin:30px ;
+   
+}
+
+.student table {
+    background-color: antiquewhite;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+.student table th,.student table td{
+    border: 1px solid red;
+    padding: 5px;
+    text-align: left;
+    width: 100px;
+}
+
+
+
+
+
